@@ -7,17 +7,21 @@ $padding-default: 1em;
 
 $text-color : #7e7b72;
 $title-color : #747972;
+$link-color : #3e8f80;
 /* gerais */
 
 .wrap {margin: 0 auto; max-width: 960px;}
 body {font: 16px Arial, Helvetica, sans-serif;}
 figure {display: inline-block; vertical-align: top; margin: 0;}
-p {color : $text-color}
+p, address {color : $text-color}
 h2, h3, strong {color :$title-color; text-transform: uppercase; font-weight: bold; }
-strong {font-size: 0.875em; }
+strong,h3 {font-size: 0.875em; }
 h2 {margin: $margin-default}
-a {margin: $margin-default;}
-a.link-button {display: inline-block;}
+a {margin: $margin-default; color: $link-color; text-decoration: none; font-weight: bold;}
+a:hover {text-decoration: underline;}
+a.link-button:after {content: " \00BB"}
+a.link-button {display: inline-block; text-transform: uppercase; border-top: 1px solid #cecece; padding: 1.25em 0.62em;}
+
 header {min-height: 450px; background: url('../img/foto-header.png') no-repeat; background-size: 960px; background-position: center; text-align: center; }
 header h1 {display: inline-block; margin-top : 5.5em; color: #FFF; font-size: 3em;}
 
@@ -43,6 +47,5 @@ footer {padding: 1em 3em 0 3em ;}
 footer h2 { text-align: center;}
 footer h3 {margin: $margin-default;}
 footer dl dt, footer dl dd {display: inline-block;}
-
 footer dl dt {width: 70%;}
 footer dl dd {width: 30%; min-width: 240px; text-align: right;}

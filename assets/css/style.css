@@ -13,7 +13,7 @@ figure {
   vertical-align: top;
   margin: 0; }
 
-p {
+p, address {
   color: #7e7b72; }
 
 h2, h3, strong {
@@ -21,17 +21,29 @@ h2, h3, strong {
   text-transform: uppercase;
   font-weight: bold; }
 
-strong {
+strong, h3 {
   font-size: 0.875em; }
 
 h2 {
   margin: 1em 0; }
 
 a {
-  margin: 1em 0; }
+  margin: 1em 0;
+  color: #3e8f80;
+  text-decoration: none;
+  font-weight: bold; }
+
+a:hover {
+  text-decoration: underline; }
+
+a.link-button:after {
+  content: " \00BB"; }
 
 a.link-button {
-  display: inline-block; }
+  display: inline-block;
+  text-transform: uppercase;
+  border-top: 1px solid #cecece;
+  padding: 1.25em 0.62em; }
 
 header {
   min-height: 450px;

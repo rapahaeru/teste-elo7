@@ -3,19 +3,23 @@
 /* Variaveis */
 
 $margin-default : 1em 0;
-
 $padding-default: 1em;
 
+$text-color : #7e7b72;
+$title-color : #747972;
 /* gerais */
 
 .wrap {margin: 0 auto; max-width: 960px;}
 body {font: 16px Arial, Helvetica, sans-serif;}
 figure {display: inline-block; vertical-align: top; margin: 0;}
+p {color : $text-color}
+h2, h3, strong {color :$title-color; text-transform: uppercase; font-weight: bold; }
+strong {font-size: 0.875em; }
 h2 {margin: $margin-default}
 a {margin: $margin-default;}
 a.link-button {display: inline-block;}
 header {min-height: 450px; background: url('../img/foto-header.png') no-repeat; background-size: 960px; background-position: center; text-align: center; }
-header h1 {display: inline-block; margin-top : 19em;}
+header h1 {display: inline-block; margin-top : 5.5em; color: #FFF; font-size: 3em;}
 
 article { margin: $margin-default;}
 
@@ -33,7 +37,7 @@ article { margin: $margin-default;}
 
 .plans { text-align: center;}
 .enviroment {text-align: center;}
-.enviroment img {max-width: 100%;} 
+.enviroment img {max-width: 100%;}
 
 footer {padding: 1em 3em 0 3em ;}
 footer h2 { text-align: center;}

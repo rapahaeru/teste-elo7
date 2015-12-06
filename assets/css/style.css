@@ -13,6 +13,17 @@ figure {
   vertical-align: top;
   margin: 0; }
 
+p {
+  color: #7e7b72; }
+
+h2, h3, strong {
+  color: #747972;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+strong {
+  font-size: 0.875em; }
+
 h2 {
   margin: 1em 0; }
 
@@ -31,7 +42,9 @@ header {
 
 header h1 {
   display: inline-block;
-  margin-top: 19em; }
+  margin-top: 5.5em;
+  color: #FFF;
+  font-size: 3em; }
 
 article {
   margin: 1em 0; }

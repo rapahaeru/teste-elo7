@@ -27,23 +27,23 @@ strong, h3 {
 h2 {
   margin: 1em 0; }
 
+article {
+  margin: 1em 0; }
+
 a {
   margin: 1em 0;
   color: #3e8f80;
   text-decoration: none;
   font-weight: bold; }
-
-a:hover {
-  text-decoration: underline; }
-
-a.link-button:after {
-  content: " \00BB"; }
-
-a.link-button {
-  display: inline-block;
-  text-transform: uppercase;
-  border-top: 1px solid #cecece;
-  padding: 1.25em 0.62em; }
+  a:hover {
+    text-decoration: underline; }
+  a.link-button:after {
+    content: " \00BB"; }
+  a.link-button {
+    display: inline-block;
+    text-transform: uppercase;
+    border-top: 1px solid #cecece;
+    padding: 1.25em 0.62em; }
 
 .box-button {
   display: block; }
@@ -54,15 +54,11 @@ header {
   background-size: 960px;
   background-position: center;
   text-align: center; }
-
-header h1 {
-  display: inline-block;
-  margin-top: 5.5em;
-  color: #FFF;
-  font-size: 3em; }
-
-article {
-  margin: 1em 0; }
+  header h1 {
+    display: inline-block;
+    margin-top: 5.5em;
+    color: #FFF;
+    font-size: 3em; }
 
 .intro {
   text-align: center; }
@@ -70,75 +66,58 @@ article {
 .team .featured {
   display: block;
   padding: 1em; }
-
-.team .featured strong {
-  display: block; }
-
-.team .featured i {
-  display: block; }
-
-.team .featured .featured-description {
-  display: inline-block;
-  max-width: 30em;
-  margin-left: 1em; }
-
+  .team .featured strong {
+    display: block; }
+  .team .featured i {
+    display: block; }
+  .team .featured .featured-description {
+    display: inline-block;
+    max-width: 30em;
+    margin-left: 1em; }
 .team h2 {
   margin: 1em 0;
   text-align: center; }
-
 .team .our-team {
   display: block;
   text-align: center;
   padding: 1em; }
-
 .team ul li {
   display: inline-block; }
 
 .plans {
   text-align: center; }
-
-.plans .tools {
-  display: inline-table;
-  max-width: 17em;
-  padding-top: 170px;
-  background: url("../img/work-style.png") no-repeat; }
-
-.plans .tools.life {
-  background-position: 75px 0; }
-
-.plans .tools.casual {
-  background-position: -235px 0; }
-
-.plans .tools.extras {
-  background-position: -562px 0; }
-
-.plans .tools p {
-  text-align: justify; }
+  .plans .tools {
+    display: inline-table;
+    max-width: 17em;
+    padding-top: 170px;
+    background: url("../img/work-style.png") no-repeat; }
+    .plans .tools.life {
+      background-position: 75px 0; }
+    .plans .tools.casual {
+      background-position: -235px 0; }
+    .plans .tools.extras {
+      background-position: -562px 0; }
+    .plans .tools p {
+      text-align: justify; }
 
 .enviroment {
   text-align: center; }
-
-.enviroment img {
-  max-width: 100%; }
+  .enviroment img {
+    max-width: 100%; }
 
 footer {
   padding: 1em 3em 0 3em; }
-
-footer h2 {
-  text-align: center; }
-
-footer h3 {
-  margin: 1em 0; }
-
-footer dl dt, footer dl dd {
-  display: inline-block; }
-
-footer dl dt {
-  width: 70%; }
-
-footer dl dd {
-  width: 30%;
-  min-width: 240px;
-  text-align: right; }
+  footer h2 {
+    text-align: center; }
+  footer h3 {
+    margin: 1em 0; }
+  footer dl dt, footer dl dd {
+    display: inline-block; }
+  footer dl dt {
+    width: 70%; }
+  footer dl dd {
+    width: 30%;
+    min-width: 240px;
+    text-align: right; }
 
 /*# sourceMappingURL=style.css.map */

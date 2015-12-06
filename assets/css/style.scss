@@ -17,44 +17,66 @@ p, address {color : $text-color}
 h2, h3, strong {color :$title-color; text-transform: uppercase; font-weight: bold; }
 strong,h3 {font-size: 0.875em; }
 h2 {margin: $margin-default}
-a {margin: $margin-default; color: $link-color; text-decoration: none; font-weight: bold;}
-a:hover {text-decoration: underline;}
-a.link-button:after {content: " \00BB"}
-a.link-button {display: inline-block; text-transform: uppercase; border-top: 1px solid #cecece; padding: 1.25em 0.62em;}
-.box-button {display: block;}
-
-header {min-height: 450px; background: url('../img/foto-header.png') no-repeat; background-size: 960px; background-position: center; text-align: center; }
-header h1 {display: inline-block; margin-top : 5.5em; color: #FFF; font-size: 3em;}
 
 article { margin: $margin-default;}
 
+a {
+	margin: $margin-default; color: $link-color; text-decoration: none; font-weight: bold;
+
+	&:hover{
+		text-decoration: underline;
+	}
+
+	&.link-button:after {content: " \00BB"}
+	&.link-button {display: inline-block; text-transform: uppercase; border-top: 1px solid #cecece; padding: 1.25em 0.62em;}
+}
+.box-button {display: block;}
+
+header {
+	min-height: 450px; background: url('../img/foto-header.png') no-repeat; background-size: 960px; background-position: center; text-align: center; 
+	& h1 {display: inline-block; margin-top : 5.5em; color: #FFF; font-size: 3em;}
+}
+
 .intro {text-align: center;}
 
-.team .featured {display: block; padding:$padding-default; }
-.team .featured strong {display: block;}
-.team .featured i {display: block;}
-.team .featured .featured-description { display: inline-block; max-width: 30em; margin-left: 1em;}
+.team {
+	& .featured {
+		display: block; padding:$padding-default;
+		& strong {display: block;}
+		& i {display: block;}
+		& .featured-description { display: inline-block; max-width: 30em; margin-left: 1em;}
+	}
+	& h2 { margin: $margin-default; text-align: center;}
+	& .our-team {display: block; text-align: center; padding: $padding-default;}
+	& ul li {display: inline-block;}
+}
 
-.team h2 { margin: $margin-default; text-align: center;}
+.plans { 
+	text-align: center;
+	& .tools {
+		display: inline-table; max-width: 17em; padding-top: 170px; background: url('../img/work-style.png') no-repeat;
 
-.team .our-team {display: block; text-align: center; padding: $padding-default;}
-.team ul li {display: inline-block;}
+		&.life {background-position: 75px 0;}
+		&.casual {background-position: -235px 0;}
+		&.extras {background-position: -562px 0;}
+		& p {text-align: justify;}
+	}
 
-.plans { text-align: center;}
-.plans .tools {display: inline-table; max-width: 17em; padding-top: 170px; background: url('../img/work-style.png') no-repeat;}
+}
 
-.plans .tools.life {background-position: 75px 0;}
-.plans .tools.casual {background-position: -235px 0;}
-.plans .tools.extras {background-position: -562px 0;}
 
-.plans .tools p {text-align: justify;}
+.enviroment {
+	text-align: center;
+	
+	& img {max-width: 100%;}
+}
 
-.enviroment {text-align: center;}
-.enviroment img {max-width: 100%;}
 
-footer {padding: 1em 3em 0 3em ;}
-footer h2 { text-align: center;}
-footer h3 {margin: $margin-default;}
-footer dl dt, footer dl dd {display: inline-block;}
-footer dl dt {width: 70%;}
-footer dl dd {width: 30%; min-width: 240px; text-align: right;}
+footer {
+	padding: 1em 3em 0 3em ;
+	& h2 { text-align: center;}
+	& h3 {margin: $margin-default;}
+	& dl dt, & dl dd {display: inline-block;}
+	& dl dt {width: 70%;}
+	& dl dd {width: 30%; min-width: 240px; text-align: right;}
+}

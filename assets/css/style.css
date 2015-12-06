@@ -16,12 +16,12 @@ figure {
 p, address {
   color: #7e7b72; }
 
-h2, h3, strong {
+h2, h3, h4, strong {
   color: #747972;
   text-transform: uppercase;
   font-weight: bold; }
 
-strong, h3 {
+strong, h3, h4 {
   font-size: 0.875em; }
 
 h2 {
@@ -63,41 +63,64 @@ header {
 .intro {
   text-align: center; }
 
-.team .featured {
-  display: block;
-  padding: 1em; }
-  .team .featured strong {
-    display: block; }
-  .team .featured i {
-    display: block; }
-  .team .featured .featured-description {
-    display: inline-block;
-    max-width: 30em;
-    margin-left: 1em; }
-.team h2 {
-  margin: 1em 0;
-  text-align: center; }
-.team .our-team {
-  display: block;
-  text-align: center;
-  padding: 1em; }
-.team ul li {
-  display: inline-block; }
+.team {
+  background-color: #f8f8f8;
+  padding: 1.5em; }
+  .team .featured {
+    display: block;
+    padding: 1em; }
+    .team .featured .featured-description {
+      display: inline-block;
+      max-width: 26em;
+      margin-left: 3em; }
+      .team .featured .featured-description h4 {
+        display: block; }
+      .team .featured .featured-description i {
+        display: block;
+        color: #ffb344; }
+      .team .featured .featured-description p {
+        margin-top: 3em;
+        text-align: justify; }
+  .team h2 {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 12em;
+    padding: 2em 0 1em 0; }
+  .team .our-team {
+    display: block;
+    text-align: center;
+    padding: 1em; }
+  .team ul li {
+    display: inline-block; }
 
-.plans {
+.work-style {
   text-align: center; }
-  .plans .tools {
+  .work-style .group-flex {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em; }
+  .work-style .style {
     display: inline-table;
     max-width: 17em;
     padding-top: 170px;
-    background: url("../img/work-style.png") no-repeat; }
-    .plans .tools.life {
-      background-position: 75px 0; }
-    .plans .tools.casual {
-      background-position: -235px 0; }
-    .plans .tools.extras {
-      background-position: -562px 0; }
-    .plans .tools p {
+    background: url("../img/work-style.png") no-repeat;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto; }
+    .work-style .style.life {
+      background-position: 75px 0;
+      -webkit-order: 1; }
+    .work-style .style.casual {
+      background-position: -255px 0;
+      -webkit-order: 2; }
+    .work-style .style.extras {
+      background-position: -580px 0;
+      -webkit-order: 3; }
+    .work-style .style strong {
+      display: block;
+      margin: 0.5em 0 2.5em 0;
+      font-size: 1em; }
+    .work-style .style p {
       text-align: justify; }
 
 .enviroment {
@@ -110,9 +133,12 @@ footer {
   footer h2 {
     text-align: center; }
   footer h3 {
-    margin: 1em 0; }
+    margin: 3em 0 0 0; }
   footer dl dt, footer dl dd {
-    display: inline-block; }
+    display: inline-block;
+    margin: 0.5em 0; }
+  footer dl {
+    margin: 2em 0; }
   footer dl dt {
     width: 70%; }
   footer dl dd {

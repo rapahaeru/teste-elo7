@@ -21,6 +21,7 @@ a {margin: $margin-default; color: $link-color; text-decoration: none; font-weig
 a:hover {text-decoration: underline;}
 a.link-button:after {content: " \00BB"}
 a.link-button {display: inline-block; text-transform: uppercase; border-top: 1px solid #cecece; padding: 1.25em 0.62em;}
+.box-button {display: block;}
 
 header {min-height: 450px; background: url('../img/foto-header.png') no-repeat; background-size: 960px; background-position: center; text-align: center; }
 header h1 {display: inline-block; margin-top : 5.5em; color: #FFF; font-size: 3em;}
@@ -40,6 +41,14 @@ article { margin: $margin-default;}
 .team ul li {display: inline-block;}
 
 .plans { text-align: center;}
+.plans .tools {display: inline-table; max-width: 17em; padding-top: 170px; background: url('../img/work-style.png') no-repeat;}
+
+.plans .tools.life {background-position: 75px 0;}
+.plans .tools.casual {background-position: -235px 0;}
+.plans .tools.extras {background-position: -562px 0;}
+
+.plans .tools p {text-align: justify;}
+
 .enviroment {text-align: center;}
 .enviroment img {max-width: 100%;}
 

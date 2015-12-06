@@ -45,6 +45,9 @@ a.link-button {
   border-top: 1px solid #cecece;
   padding: 1.25em 0.62em; }
 
+.box-button {
+  display: block; }
+
 header {
   min-height: 450px;
   background: url("../img/foto-header.png") no-repeat;
@@ -93,6 +96,24 @@ article {
 
 .plans {
   text-align: center; }
+
+.plans .tools {
+  display: inline-table;
+  max-width: 17em;
+  padding-top: 170px;
+  background: url("../img/work-style.png") no-repeat; }
+
+.plans .tools.life {
+  background-position: 75px 0; }
+
+.plans .tools.casual {
+  background-position: -235px 0; }
+
+.plans .tools.extras {
+  background-position: -562px 0; }
+
+.plans .tools p {
+  text-align: justify; }
 
 .enviroment {
   text-align: center; }

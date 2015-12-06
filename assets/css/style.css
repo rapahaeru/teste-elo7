@@ -29,6 +29,10 @@ header {
   background-position: center;
   text-align: center; }
 
+header h1 {
+  display: inline-block;
+  margin-top: 19em; }
+
 article {
   margin: 1em 0; }
 
@@ -67,6 +71,9 @@ article {
 
 .enviroment {
   text-align: center; }
+
+.enviroment img {
+  max-width: 100%; }
 
 footer {
   padding: 1em 3em 0 3em; }

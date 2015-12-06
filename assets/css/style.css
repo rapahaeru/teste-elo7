@@ -1,3 +1,86 @@
 @import url(reset.css);
+/* Variaveis */
+/* gerais */
+.wrap {
+  margin: 0 auto;
+  max-width: 960px; }
+
+body {
+  font: 16px Arial, Helvetica, sans-serif; }
+
+figure {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0; }
+
+h2 {
+  margin: 1em 0; }
+
+a {
+  margin: 1em 0; }
+
+a.link-button {
+  display: inline-block; }
+
+header {
+  min-height: 450px;
+  background: url("../img/foto-header.png") no-repeat;
+  background-size: 960px;
+  background-position: center;
+  text-align: center; }
+
+article {
+  margin: 1em 0; }
+
+.intro {
+  text-align: center; }
+
+.team .featured {
+  display: block;
+  padding: 1em; }
+
+.team .featured strong {
+  display: block; }
+
+.team .featured i {
+  display: block; }
+
+.team .featured .featured-description {
+  display: inline-block;
+  max-width: 30em;
+  margin-left: 1em; }
+
+.team h2 {
+  margin: 1em 0;
+  text-align: center; }
+
+.team .our-team {
+  display: block;
+  text-align: center;
+  padding: 1em; }
+
+.team ul li {
+  display: inline-block; }
+
+.plans {
+  text-align: center; }
+
+.enviroment {
+  text-align: center; }
+
+footer {
+  padding: 1em 3em 0 3em; }
+
+footer h2 {
+  text-align: center; }
+
+footer h3 {
+  margin: 1em 0; }
+
+footer dt dl {
+  display: inline-block; }
+
+footer dt dd {
+  display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

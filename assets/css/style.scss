@@ -36,5 +36,7 @@ article { margin: $margin-default;}
 footer {padding: 1em 3em 0 3em ;}
 footer h2 { text-align: center;}
 footer h3 {margin: $margin-default;}
-footer dt dl {display: inline-block;}
-footer dt dd {display: inline-block;}
+footer dl dt, footer dl dd {display: inline-block;}
+
+footer dl dt {width: 70%;}
+footer dl dd {width: 30%; min-width: 240px; text-align: right;}

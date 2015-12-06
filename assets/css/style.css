@@ -77,10 +77,15 @@ footer h2 {
 footer h3 {
   margin: 1em 0; }
 
-footer dt dl {
+footer dl dt, footer dl dd {
   display: inline-block; }
 
-footer dt dd {
-  display: inline-block; }
+footer dl dt {
+  width: 70%; }
+
+footer dl dd {
+  width: 30%;
+  min-width: 240px;
+  text-align: right; }
 
 /*# sourceMappingURL=style.css.map */

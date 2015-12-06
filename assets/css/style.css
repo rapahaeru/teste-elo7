@@ -87,7 +87,6 @@ header {
     max-width: 12em;
     padding: 2em 0 1em 0; }
   .team ul.our-team {
-    display: block;
     text-align: center;
     padding: 1em;
     display: flex;

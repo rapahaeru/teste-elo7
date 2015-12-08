@@ -63,7 +63,7 @@ header {
 	.group-flex { display: -webkit-flex; display: flex; justify-content: space-around; padding: 1.5em;}
 	.style {
 		max-width: 17em; padding-top: 170px; background: url('../img/work-style.png') no-repeat;
-		&.life {background-position: 75px 0; -webkit-order: 1;}
+		&.life {background-position: 55px 0; -webkit-order: 1;}
 		&.casual {background-position: -255px 0; -webkit-order: 2;}
 		&.extras {background-position: -580px 0; -webkit-order: 3;}
 		strong {display: block; margin : 0.5em 0 2.5em 0; font-size: 1em;}
@@ -86,6 +86,46 @@ footer {
 	h3 {margin: 3em 0 0 0;}
 	dl dt, & dl dd {display: inline-block; margin : 0.5em 0;}
 	dl {margin: 2em 0; }
-	dl dt {width: 70%;}
+	dl dt {width: 70%; min-width: 380px;}
 	dl dd {width: 30%; min-width: 240px; text-align: right;}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+
+	.team {
+		.featured {
+			text-align: center;
+
+			img {max-width: 100%;}
+
+			.featured-description {
+				margin-left: 0;
+
+				h4, p {margin-top: 1em;}
+			}
+
+		}
+
+		ul {
+			&.our-team {flex-direction: column;}
+			li {margin-top : 1em;}
+		}
+
+	}
+
+	.work-style {
+		.group-flex { 
+			flex-direction : column; align-items: center;
+			.casual, .extras {margin-top: 2em;}
+		}
+	}
+
+	footer {
+		dl{
+
+			dd { text-align : left;}
+		}
+	}
+
 }

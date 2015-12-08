@@ -106,7 +106,7 @@ header {
     padding-top: 170px;
     background: url("../img/work-style.png") no-repeat; }
     .work-style .style.life {
-      background-position: 75px 0;
+      background-position: 55px 0;
       -webkit-order: 1; }
     .work-style .style.casual {
       background-position: -255px 0;
@@ -138,10 +138,34 @@ footer {
   footer dl {
     margin: 2em 0; }
   footer dl dt {
-    width: 70%; }
+    width: 70%;
+    min-width: 380px; }
   footer dl dd {
     width: 30%;
     min-width: 240px;
     text-align: right; }
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .team .featured {
+    text-align: center; }
+    .team .featured img {
+      max-width: 100%; }
+    .team .featured .featured-description {
+      margin-left: 0; }
+      .team .featured .featured-description h4, .team .featured .featured-description p {
+        margin-top: 1em; }
+  .team ul.our-team {
+    flex-direction: column; }
+  .team ul li {
+    margin-top: 1em; }
+
+  .work-style .group-flex {
+    flex-direction: column;
+    align-items: center; }
+    .work-style .group-flex .casual, .work-style .group-flex .extras {
+      margin-top: 2em; }
+
+  footer dl dd {
+    text-align: left; } }
 
 /*# sourceMappingURL=style.css.map */

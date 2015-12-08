@@ -34,40 +34,40 @@ a {
 
 header {
 	min-height: 450px; background: url('../img/foto-header.png') no-repeat; background-size: 960px; background-position: center; text-align: center; 
-	& h1 {display: inline-block; margin-top : 5.5em; color: #FFF; font-size: 3em;}
+	h1 {display: inline-block; margin-top : 5.5em; color: #FFF; font-size: 3em;}
 }
 
 .intro {text-align: center;}
 
 .team {
 	background-color : #f8f8f8; padding: 1.5em;
-	& .featured {
+	.featured {
 		display: block; padding:$padding-default;
 
-		& .featured-description { 
+		.featured-description { 
 			display: inline-block; max-width: 26em; margin-left: 3em;
 
-			& h4 {display: block;}
-			& i {display: block; color: #ffb344;}
-			& p {margin-top: 3em; text-align: justify;}
+			h4 {display: block;}
+			i {display: block; color: #ffb344;}
+			p {margin-top: 3em; text-align: justify;}
 		}
 
 	}
-	& h2 { margin: 0 auto; text-align: center; max-width: 12em; padding: 2em 0 1em 0;}
-	& ul.our-team { text-align: center; padding: $padding-default; display: flex; justify-content: space-between;}
-	& ul li {display: inline-block;}
+	h2 { margin: 0 auto; text-align: center; max-width: 12em; padding: 2em 0 1em 0;}
+	ul.our-team { text-align: center; padding: $padding-default; display: flex; justify-content: space-between;}
+	ul li {display: inline-block;}
 }
 
 .work-style { 
 	text-align: center;
-	& .group-flex { display: -webkit-flex; display: flex; justify-content: space-around; padding: 1.5em;}
-	& .style {
+	.group-flex { display: -webkit-flex; display: flex; justify-content: space-around; padding: 1.5em;}
+	.style {
 		max-width: 17em; padding-top: 170px; background: url('../img/work-style.png') no-repeat;
 		&.life {background-position: 75px 0; -webkit-order: 1;}
 		&.casual {background-position: -255px 0; -webkit-order: 2;}
 		&.extras {background-position: -580px 0; -webkit-order: 3;}
-		& strong {display: block; margin : 0.5em 0 2.5em 0; font-size: 1em;}
-		& p {text-align: justify;}
+		strong {display: block; margin : 0.5em 0 2.5em 0; font-size: 1em;}
+		p {text-align: justify;}
 	}
 
 }
@@ -76,16 +76,16 @@ header {
 .enviroment {
 	text-align: center;
 	
-	& img {max-width: 100%;}
+	img {max-width: 100%;}
 }
 
 
 footer {
 	padding: 1em 3em 0 3em ;
-	& h2 { text-align: center;}
-	& h3 {margin: 3em 0 0 0;}
-	& dl dt, & dl dd {display: inline-block; margin : 0.5em 0;}
-	& dl {margin: 2em 0; }
-	& dl dt {width: 70%;}
-	& dl dd {width: 30%; min-width: 240px; text-align: right;}
+	h2 { text-align: center;}
+	h3 {margin: 3em 0 0 0;}
+	dl dt, & dl dd {display: inline-block; margin : 0.5em 0;}
+	dl {margin: 2em 0; }
+	dl dt {width: 70%;}
+	dl dd {width: 30%; min-width: 240px; text-align: right;}
 }

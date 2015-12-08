@@ -198,7 +198,7 @@ footer {
 
   footer dl dd {
     text-align: left; } }
-@media only screen and (min-width: 900px) and (max-width: 960px) {
+@media only screen and (min-width: 901px) and (max-width: 960px) {
   .team .featured .featured-description {
     max-width: 22em; } }
 

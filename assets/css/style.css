@@ -138,8 +138,7 @@ footer {
   footer dl {
     margin: 2em 0; }
   footer dl dt {
-    width: 70%;
-    min-width: 380px; }
+    width: 70%; }
   footer dl dd {
     width: 30%;
     min-width: 240px;

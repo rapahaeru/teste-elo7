@@ -129,3 +129,61 @@ footer {
 	}
 
 }
+
+@media only screen and (min-width: 569px) and (max-width: 900px) {
+
+	.team {
+		.featured {
+			text-align: center;
+
+			img {max-width: 100%;}
+
+			.featured-description {
+				margin-left: 0; max-width: 37em;
+
+				h4, p {margin-top: 1em;}
+			}
+
+		}
+
+		ul {
+			&.our-team { display: block;}
+			li {margin : 1em 1em 0 0;}
+		}
+
+	}
+
+	.work-style {
+		.style {
+			max-width: 28em;
+			&.life {background-position: 143px 0;}
+			&.casual {background-position: -170px 0;}
+			&.extras {background-position: -490px 0;}
+		}
+		.group-flex {
+			flex-direction : column; align-items: center;
+			.casual, .extras {margin-top: 2em;}
+		}
+	}
+
+	footer {
+		dl{
+			dd { text-align : left;}
+		}
+	}
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 960px) {
+
+	.team {
+		.featured {
+			.featured-description {
+				max-width: 22em;
+			}
+
+		}
+
+	}
+}
+

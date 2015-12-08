@@ -167,5 +167,39 @@ footer {
 
   footer dl dd {
     text-align: left; } }
+@media only screen and (min-width: 569px) and (max-width: 900px) {
+  .team .featured {
+    text-align: center; }
+    .team .featured img {
+      max-width: 100%; }
+    .team .featured .featured-description {
+      margin-left: 0;
+      max-width: 37em; }
+      .team .featured .featured-description h4, .team .featured .featured-description p {
+        margin-top: 1em; }
+  .team ul.our-team {
+    display: block; }
+  .team ul li {
+    margin: 1em 1em 0 0; }
+
+  .work-style .style {
+    max-width: 28em; }
+    .work-style .style.life {
+      background-position: 143px 0; }
+    .work-style .style.casual {
+      background-position: -170px 0; }
+    .work-style .style.extras {
+      background-position: -490px 0; }
+  .work-style .group-flex {
+    flex-direction: column;
+    align-items: center; }
+    .work-style .group-flex .casual, .work-style .group-flex .extras {
+      margin-top: 2em; }
+
+  footer dl dd {
+    text-align: left; } }
+@media only screen and (min-width: 900px) and (max-width: 960px) {
+  .team .featured .featured-description {
+    max-width: 22em; } }
 
 /*# sourceMappingURL=style.css.map */
